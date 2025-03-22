@@ -117,10 +117,10 @@ const Navbar = () => {
 
         <div className="hidden lg:flex space-x-2">
           <SignedOut>
-            <Button asChild>
+            <Button asChild className="cursor-pointer">
               <SignInButton>Login</SignInButton>
             </Button>
-            <Button asChild variant="outline">
+            <Button asChild variant="outline" className="cursor-pointer">
               <SignUpButton></SignUpButton>
             </Button>
           </SignedOut>

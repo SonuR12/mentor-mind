@@ -21,7 +21,7 @@ interface SkillCardProps {
 
 const SkillCard: React.FC<SkillCardProps> = ({ cardData }) => {
   return (
-    <Card>
+    <Card className="border border-teal-400">
       <CardHeader>
         <CardTitle className="font-bold text-lg">
           {cardData.skillName}

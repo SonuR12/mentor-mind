@@ -151,7 +151,7 @@ const Recommendation: React.FC = () => {
       </div>
       <hr />
       <div className="mt-12">
-        <Card>
+        <Card className="border border-teal-400">
           <CardContent>
             <h2 className="text-2xl font-bold mb-2 text-center">
               What&apos;s Next?

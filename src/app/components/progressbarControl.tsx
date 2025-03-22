@@ -21,7 +21,7 @@ const ProgressbarControl: React.FC<ProgressbarControlProps> = ({
       >
         BACK
       </Button>
-      <Button type="submit" onClick={() => handleClick("next")}>
+      <Button className="cursor-pointer" type="submit" onClick={() => handleClick("next")}>
         NEXT
       </Button>
     </div>
