@@ -43,7 +43,9 @@ yarn install
 Create a `.env.local` file and add the required API keys:
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+MONGODB_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>
+GEMINI_API_KEY=your_gemini_key
 ```
 
 ### 4️⃣ Run the Development Server
