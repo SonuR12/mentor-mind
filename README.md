@@ -17,8 +17,8 @@
 ## 🛠️ Tech Stack
 
 - **Frontend:** Next.js, React, Tailwind CSS
-- **Backend:** Node.js, Express (if applicable)
-- **Database:** (Add if using any, e.g., Firebase, PostgreSQL, MongoDB)
+- **Backend:** Node.js, Express
+- **Database:** (MongoDB)
 - **Authentication:** Clerk
 - **AI Integration:** Gemini AI (Google AI API)
 
